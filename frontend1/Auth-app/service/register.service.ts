@@ -8,7 +8,7 @@ import { User } from '../user.model';
   providedIn: 'root',
 })
 export class RegisterService {
-  private apiUrl = 'http://localhost:3002/api/register';
+  private apiUrl = 'http://ec2-3-110-220-58.ap-south-1.compute.amazonaws.com/api/api/register';
 
   constructor(private http: HttpClient) {}
 
