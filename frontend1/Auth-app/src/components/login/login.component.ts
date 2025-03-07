@@ -18,7 +18,7 @@ export class LoginComponent {
   constructor() {}
 
   onLogin() {
-    this.http.post('http://localhost:3002/api/login', this.userobj).subscribe(
+    this.http.post('http://ec2-3-110-220-58.ap-south-1.compute.amazonaws.com/api/api/login', this.userobj).subscribe(
       (res: any) => {
         console.log(res, "response obj");
 
